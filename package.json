@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-typescript-redux",
+  "name": "@ciklum-digital/cra-template-typescript-redux",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Bohdan Pohasii",
@@ -101,6 +101,7 @@
     ]
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2"
   }
