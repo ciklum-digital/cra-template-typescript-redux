@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/cra-template-typescript-redux.svg)](https://badge.fury.io/js/cra-template-typescript-redux)
+[![npm version](https://badge.fury.io/js/%40ciklum-digital%2Fcra-template-typescript-redux.svg)](https://badge.fury.io/js/%40ciklum-digital%2Fcra-template-typescript-redux)
 
 # A quick start Redux + TypeScript Create React App template
 
@@ -22,11 +22,7 @@ yarn create react-app your-project-name --template @ciklum-digital/cra-template-
 
 `--template` parameter points to this template, note that `cra-template-` prefix is omitted.
 
-## Motivation
-
-You know the pain. You start a new project from scratch and need to configure it again and again. It needs routing, ok you setup Router, then you need Redux - ok, oh 😩Redux boilerplate is taking so much time to type. Wait... what if you could have all the tools you want just from the beginning? I want to focus on building amazing projects and not spending hours configuring. That's why I've created this template. It's here for you to use.
-
-## Available Scripts
+## Scripts
 
 In the project directory, you can run:
 
@@ -38,11 +34,10 @@ In the project directory, you can run:
 
 - `yarn eject` - exposes content of `react-script` package
 
-- `yarn lint` - lints project files according to eslint rules, see below. Typical use case: continuous integration environments, Travis, CircleCI, etc.
+- `yarn lint` - lints project files according to eslint rules, see below.
 
-- `yarn fix` - same as `yarn lint`, but also fixes errors, when possible. Typical use case: local development environment, git hooks.
+- `yarn fix` - same as `yarn lint`, but also fixes errors, when possible.
 
-Due to CRA template limitations (we can change only `scripts` and `dependencies` inside generated `package.json`) all configuration is done by adding config files where possible. Also no `devDependencies` for now, sorry.
 
 ## Redux configuration
 
