@@ -1,4 +1,4 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER } from './actionTypes'
+import { INCREMENT_COUNTER, DECREMENT_COUNTER } from './counterActionTypes'
 
 interface IncrementCounterAction {
   type: typeof INCREMENT_COUNTER
