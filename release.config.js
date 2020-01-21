@@ -16,7 +16,7 @@ module.exports = {
       {
         assets: [
           'package.json',
-          'package-lock.json',
+          'yarn.lock',
           'CHANGELOG.md',
         ],
         // eslint-disable-next-line no-template-curly-in-string
@@ -27,12 +27,7 @@ module.exports = {
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    [
-      '@semantic-release/npm',
-      {
-        npmPublish: true,
-      },
-    ],
+    '@semantic-release/npm',
     '@semantic-release/github',
   ],
 }
