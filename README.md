@@ -9,13 +9,13 @@ Original Create React App README available [here](./README_CRA.md)
 ## Usage
 
 ```bash
-npx create-react-app your-project-name --template typescript-redux
+npx create-react-app your-project-name --template @ciklum-digital/cra-template-typescript-redux
 ```
 
 Or
 
 ```bash
-yarn create react-app your-project-name --template typescript-redux
+yarn create react-app your-project-name --template @ciklum-digital/cra-template-typescript-redux
 ```
 
 `npx` command installs the most recent stable version of CRA from npm.
